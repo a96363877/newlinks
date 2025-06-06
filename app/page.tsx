@@ -10,8 +10,8 @@ export default function Component() {
     {
       name: "زين الكويت  ",
       href: "#",
-      color: "from-blue-600 to-blue-800",
-      hoverColor: "from-blue-700 to-blue-900",
+      color: "from-rose-700 rose-900",
+      hoverColor: "from-rose-700 to-rose-900",
     },
     {
       name: "اس تي سي الكويت",
@@ -23,7 +23,7 @@ export default function Component() {
       name: "اوريدو ",
       href: "#",
       color: "from-red-600 to-red-800",
-      hoverColor: "from-red-700 to-red-900",
+      hoverColor: "from-red-500 to-red-600",
     },
   ]
 
@@ -43,7 +43,7 @@ export default function Component() {
                   group relative block p-8 rounded-2xl shadow-lg transition-all duration-500 ease-out
                   bg-gradient-to-br ${hoveredLink === link.name ? link.hoverColor : link.color}
                   hover:shadow-2xl hover:scale-105 transform
-                  border border-white/20 backdrop-blur-sm
+                  border border-white/90 backdrop-blur-lg
                 `}
                 onMouseEnter={() => setHoveredLink(link.name)}
                 onMouseLeave={() => setHoveredLink(null)}
