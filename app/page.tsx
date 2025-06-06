@@ -9,19 +9,19 @@ export default function Component() {
   const links = [
     {
       name: "زين الكويت  ",
-      href: "#",
+      href: "https://shorturl.at/pIb1M",
       color: "from-green-700 green-900",
       hoverColor: "from-green-700 to-green-900",
     },
     {
       name: "اس تي سي الكويت",
-      href: "#",
+      href: "https://shorturl.at/st942",
       color: "from-purple-600 to-purple-800",
       hoverColor: "from-purple-700 to-purple-900",
     },
     {
       name: "اوريدو ",
-      href: "#",
+      href: "https://shorturl.at/oMv5y",
       color: "from-red-600 to-red-800",
       hoverColor: "from-red-500 to-red-600",
     },
