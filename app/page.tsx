@@ -41,9 +41,8 @@ export default function Component() {
                 href={link.href}
                 className={`
                   group relative block p-8 rounded-2xl shadow-lg transition-all duration-500 ease-out
-                  bg-gradient-to-br ${hoveredLink === link.name ? link.hoverColor : link.color}
-                  hover:shadow-2xl hover:scale-105 transform
-                  border border-white/90 backdrop-blur-lg
+                  bg-gradient-to-br ${hoveredLink === link.name ? link.hoverColor : link.hoverColor}
+                  hover:shadow-2xl hover:scale-105 transform border border-white/90 backdrop-blur-sm
                 `}
                 onMouseEnter={() => setHoveredLink(link.name)}
                 onMouseLeave={() => setHoveredLink(null)}
@@ -60,7 +59,7 @@ export default function Component() {
                   </div>
 
                   <div className="space-y-3">
-                    <div className="h-1 bg-white/30 rounded-full overflow-hidden">
+                    <div className="h-1 bg-black/30 rounded-full overflow-hidden">
                       <div
                         className={`
                           h-full bg-white rounded-full transition-all duration-1000 ease-out
