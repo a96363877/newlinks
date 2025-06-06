@@ -8,19 +8,19 @@ export default function Component() {
 
   const links = [
     {
-      name: "Zian",
+      name: "زين الكويت  ",
       href: "#",
       color: "from-blue-600 to-blue-800",
       hoverColor: "from-blue-700 to-blue-900",
     },
     {
-      name: "STC",
+      name: "اس تي سي الكويت",
       href: "#",
       color: "from-purple-600 to-purple-800",
       hoverColor: "from-purple-700 to-purple-900",
     },
     {
-      name: "Ooredoo KW",
+      name: "اوريدو ",
       href: "#",
       color: "from-red-600 to-red-800",
       hoverColor: "from-red-700 to-red-900",
@@ -31,7 +31,7 @@ export default function Component() {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-8">
       <div className="max-w-4xl w-full">
         <div className="text-center mb-12">
-          <p className="text-gray-600 text-lg animate-fade-in-delay">Explore our partner networks</p>
+          <p className="text-gray-600 text-lg animate-fade-in-delay">اشحن خطك و تصفح اخر العروض</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -69,7 +69,7 @@ export default function Component() {
                       />
                     </div>
 
-                    <p className="text-white/90 text-sm">Click to explore {link.name} services</p>
+                    <p className="text-white/90 text-sm">  اضغط لأستكشاف  {link.name} </p>
                   </div>
                 </div>
 
