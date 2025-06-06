@@ -10,8 +10,8 @@ export default function Component() {
     {
       name: "زين الكويت  ",
       href: "#",
-      color: "from-rose-700 rose-900",
-      hoverColor: "from-rose-700 to-rose-900",
+      color: "from-green-700 green-900",
+      hoverColor: "from-green-700 to-green-900",
     },
     {
       name: "اس تي سي الكويت",
