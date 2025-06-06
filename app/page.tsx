@@ -31,7 +31,6 @@ export default function Component() {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-8">
       <div className="max-w-4xl w-full">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4 animate-fade-in">Professional Links</h1>
           <p className="text-gray-600 text-lg animate-fade-in-delay">Explore our partner networks</p>
         </div>
 
